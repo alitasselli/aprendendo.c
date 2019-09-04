@@ -12,10 +12,10 @@ int matriz[3][3]={{1,2,3},{2,3,4},{4,5,2}};
 for(int i=0;i<3;i++){
 	for(int j=0;j<3;j++){	
 		printf("%i " , matriz[i][j]);
-
+		printf("\n");
 		}
 	
-	}printf("\n");
+	}
 
 det1=(matriz[0][0]*matriz[1][1]*matriz[2][2]);
 det2=(matriz[0][1]*matriz[1][2]*matriz[2][0]);
