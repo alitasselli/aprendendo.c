@@ -30,9 +30,6 @@ printf("\n");
 
 }
 	
-
-
-
 int main(){
 	int entrada=1;
 	struct tamanho *quantidade;

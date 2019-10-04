@@ -1,10 +1,12 @@
 //questao 18
 // escreva um programa para determinar o numero de linhas de um arquivo
+
 #include <stdio.h>
 #include <stdlib.h>
 int main(){
 FILE *arquivo;
-arquivo= fopen("usuarios.txt", "r");
+arquivo= fopen("estpython.txt", "r");
+rewind(arquivo);
 char c;
 int linhas=0;
 while(fread (&c, sizeof(char), 1, arquivo)){
